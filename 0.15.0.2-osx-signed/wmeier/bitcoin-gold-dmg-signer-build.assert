@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: '5b80bd02f47444736a7d7ecc727d6ef3967b593d8aafdd41eaebce1ac51913ba  bitcoin-gold-osx-signed.dmg
+- out_manifest: '9cdc113d5f836bf1e47fc74642164a368f4a36cf0b11e04468b92263e0a0ac10  bitcoin-gold-osx-signed.dmg
 
 '
 - in_manifest: |-
     3960b994decb2a02a2430be806ddba500ed47059ce8ba0b0b2b999189312b8a2  bitcoin-gold-dmg-signer-desc.yml
     d3dfa100e58e3ed26fccd5aea38e4a45e6724657221c53f122304893cdc598b2  bitcoin-gold-osx-unsigned.tar.gz
-    git:c6dc6ac8a6ac22c04fa033a5af50b5a189f65fec signature
+    git:3df0065125d24ba945d24de56f2756d781f6cd18 signature
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
