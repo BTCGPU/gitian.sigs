@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    92f81b94a98f78656a6cd6dcc6edf7024972ceb99f2f7c1d8650314cbb06d95f  bitcoin-gold-0.15.0-osx-unsigned.dmg
-    d3dfa100e58e3ed26fccd5aea38e4a45e6724657221c53f122304893cdc598b2  bitcoin-gold-0.15.0-osx-unsigned.tar.gz
-    0f4999f1f484845573f58dcac4bf615e853776ec318e621be98e67ef2d3774ce  bitcoin-gold-0.15.0-osx64.tar.gz
-    5487530b35ac8770dc184bbcff7d846e0193d068c5378860bd8fb487c4705b9c  src/bitcoin-gold-0.15.0.tar.gz
+    a47a5276bf47a907700b9381d5b58ce935b27331d9a7ddaa348bb5853d9179e2  bitcoin-gold-0.15.0-osx-unsigned.dmg
+    28dce7850fb428edd10add8cd532e6e743cc45cf4fcf3035e8f3b05156ee3c4f  bitcoin-gold-0.15.0-osx-unsigned.tar.gz
+    87bb6dd288ffa3d0cd753a8013a177a2e48b63ddf10f3593634388b59a60c45b  bitcoin-gold-0.15.0-osx64.tar.gz
+    baaed729a81422fa67f572b46918c79ddc1c61a90f4e4b616b226a77860e84c3  src/bitcoin-gold-0.15.0.tar.gz
 - in_manifest: |-
     f00c0c1e7ebab5775227444ea0f33f7f357f1b7bb323e22fcfe1177da4072c3b  bitcoin-gold-osx-0.15-desc.yml
     f9b00df788c388c0009432f2e1fa22daed3e3fc124e7bb982f108f3061a337a4  MacOSX10.11.sdk.tar.gz
-    git:7741649df13eee58b741a64d3c55208191d086e5 BTCGPU
+    git:4f688f579ce1485c8bac90bf5c98f0bffc79a30d BTCGPU
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

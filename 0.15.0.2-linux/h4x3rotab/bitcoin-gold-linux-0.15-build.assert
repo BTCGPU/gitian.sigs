@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    89f6d4c023bd74a7b916f5234395c2e49ed506e87502f3afa80f2d53ad89dc89  bitcoin-gold-0.15.0-aarch64-linux-gnu-debug.tar.gz
-    06b6a4a77f9291e1fa1e7a317c72aa5ffc582a615ff56682016356c179cc8eb8  bitcoin-gold-0.15.0-aarch64-linux-gnu.tar.gz
-    11b14469aada5ccf3c19017cd344d4dcf3e576186e6843c67ed934d91ee85b35  bitcoin-gold-0.15.0-arm-linux-gnueabihf-debug.tar.gz
-    55d7c07540043faa8d8e80258686549ccbeb288a1acf73d7b66b1384017cb7d8  bitcoin-gold-0.15.0-arm-linux-gnueabihf.tar.gz
-    da078b9b07e8bc1d404586a0320e84d38330b27653147c994bec52b120ad0bc7  bitcoin-gold-0.15.0-i686-pc-linux-gnu-debug.tar.gz
-    bb7ca14ec0ce26e976b3758d5a758cb17f43d8b1830c98bf5ee1da73c0b36b69  bitcoin-gold-0.15.0-i686-pc-linux-gnu.tar.gz
-    02be983683fd04494112e220e8592a8d5052c84b80b7d1b6b98d270f1258863f  bitcoin-gold-0.15.0-x86_64-linux-gnu-debug.tar.gz
-    fc051c3897c05ec8136ce2b7f063cab55f8f69e0be47581b75bac7c70f2e14c7  bitcoin-gold-0.15.0-x86_64-linux-gnu.tar.gz
-    5487530b35ac8770dc184bbcff7d846e0193d068c5378860bd8fb487c4705b9c  src/bitcoin-gold-0.15.0.tar.gz
+    f8798d127551141ebb8c0636b96d84ab0bf09edf0000f2ea5408ad47c9f66784  bitcoin-gold-0.15.0-aarch64-linux-gnu-debug.tar.gz
+    bf6d91d5f96f27265027ca6969db61915f40a19b8fa2c95b0099a88afeedda89  bitcoin-gold-0.15.0-aarch64-linux-gnu.tar.gz
+    b81201621eb6480e82f207310bb87b953ab909245d40434351e23e3ea588dbd7  bitcoin-gold-0.15.0-arm-linux-gnueabihf-debug.tar.gz
+    d1a4bfa5ec5cde3dbf81b2c4e1ce514ab4b336cb6ccfc77ab090a7b657b11f87  bitcoin-gold-0.15.0-arm-linux-gnueabihf.tar.gz
+    428a5160f4f4fc7f21de6a8b7a1e0140f077e4b4fec68597027143f615639d41  bitcoin-gold-0.15.0-i686-pc-linux-gnu-debug.tar.gz
+    d350256758ed4c4e56789f503bb51a54691fadddf6fc8c2e0f712dc34c46edfb  bitcoin-gold-0.15.0-i686-pc-linux-gnu.tar.gz
+    d09439b97365ca9e7bb2fc4a58b0ae6a413a27acf7e23d358af3ca1a09a5ffef  bitcoin-gold-0.15.0-x86_64-linux-gnu-debug.tar.gz
+    c49fa0874333837526cf1b4fce5b58abe6437b48e64dcf095654e6317e1f66a3  bitcoin-gold-0.15.0-x86_64-linux-gnu.tar.gz
+    baaed729a81422fa67f572b46918c79ddc1c61a90f4e4b616b226a77860e84c3  src/bitcoin-gold-0.15.0.tar.gz
 - in_manifest: |-
     289546d60b8f4fe527897b500237f73bd959a1f0d06f91354b6e6dbfb64306b8  bitcoin-gold-linux-0.15-desc.yml
-    git:7741649df13eee58b741a64d3c55208191d086e5 BTCGPU
+    git:4f688f579ce1485c8bac90bf5c98f0bffc79a30d BTCGPU
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

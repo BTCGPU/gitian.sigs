@@ -1,16 +1,16 @@
 --- !!omap
 - out_manifest: |
-    b35eb5450147b666f0da57d0c6068421c9afdd48deef9e8b9edf3a0a097bc0bf  bitcoin-gold-0.15.0-win-unsigned.tar.gz
-    a63c165b94b98c74c00909fa4a12ce2cf75f476fb58266231bbefc83d81b12cc  bitcoin-gold-0.15.0-win32-debug.zip
-    acb5949355eb0eeb4161334db0664aaf69df88449283d5044ba9c0c9c7de1f3b  bitcoin-gold-0.15.0-win32-setup-unsigned.exe
-    a82c96f09dc602e28dc9ca6827eb8996e9119a6b564885d170e0c413cc89c157  bitcoin-gold-0.15.0-win32.zip
-    579515278fad934f217f312ab4072a6af109b357342bbc93a4c3376ede012e05  bitcoin-gold-0.15.0-win64-debug.zip
-    2d1354c1f05fb9e05c473cb9cb438126c177ccf0463a14af466914c9e693532c  bitcoin-gold-0.15.0-win64-setup-unsigned.exe
-    a8948ca865262ef46e21db4d06dbe24d1529f6392548249c181209e173524036  bitcoin-gold-0.15.0-win64.zip
-    5487530b35ac8770dc184bbcff7d846e0193d068c5378860bd8fb487c4705b9c  src/bitcoin-gold-0.15.0.tar.gz
+    dd3f85985b4376932d3fe095300bfa657aad56bab64e8a7de04a550c8c6296ad  bitcoin-gold-0.15.0-win-unsigned.tar.gz
+    714243e048bd7ff4bd236b65f58392dc8a456c18e933ec2f85d52f7a2cb8107e  bitcoin-gold-0.15.0-win32-debug.zip
+    21b774d13dd644cd283153cb7844c289b03729b8dbf6d87609ba4645b4a9a6cc  bitcoin-gold-0.15.0-win32-setup-unsigned.exe
+    f60b25e36848f3f5335939da36bf631f970f300c120388554dd4a77546d2af90  bitcoin-gold-0.15.0-win32.zip
+    7f47368efb76e05a93bba330d0723de24d49f14cb6d3c39689230a93aeb7b2f5  bitcoin-gold-0.15.0-win64-debug.zip
+    698df6c5fc301ef8b1e6cf27a1b82add4d4d5815f0c81afffc4b32ff4453e72a  bitcoin-gold-0.15.0-win64-setup-unsigned.exe
+    497dba65c2047bc374532d83f91bf38bc7b44eae2eca36b9a375b59abfe9e6fc  bitcoin-gold-0.15.0-win64.zip
+    baaed729a81422fa67f572b46918c79ddc1c61a90f4e4b616b226a77860e84c3  src/bitcoin-gold-0.15.0.tar.gz
 - in_manifest: |-
     482a30c0dd01931051fdd8343942cd0d42c323bc2b979506dccc81e3d28265b4  bitcoin-gold-win-0.15-desc.yml
-    git:7741649df13eee58b741a64d3c55208191d086e5 BTCGPU
+    git:4f688f579ce1485c8bac90bf5c98f0bffc79a30d BTCGPU
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
