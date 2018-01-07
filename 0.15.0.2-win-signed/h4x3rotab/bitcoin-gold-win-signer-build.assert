@@ -7,7 +7,7 @@
     f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9  osslsigncode-1.7.1.tar.gz
     a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911  osslsigncode-Backports-to-1.7.1.patch
     dd3f85985b4376932d3fe095300bfa657aad56bab64e8a7de04a550c8c6296ad  bitcoin-gold-win-unsigned.tar.gz
-    git:9bf42ef2ac2198c93e1ade30bae335e674beee08 signature
+    git:3fe97375c03ab2123a9c572c91840b4fad1f48a2 signature
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -85,7 +85,9 @@
       eebcd87b62e92a191455f6e647946b1c142fdd719c8db6e091eeb063b45bf6eb  imagemagick-common_8%3a6.7.7.10-6ubuntu3.9_all.deb
       15a300192c971ecb30cf5cede7af28adfd27f0939e7fa7a183de7f02e35109ee  imagemagick_8%3a6.7.7.10-6ubuntu3.9_amd64.deb
       a67ca65935220a63967d22112fe6d5d60cfaf11cc2058c3d80bc2b67f3b4ff54  init-system-helpers_1.14ubuntu1_all.deb
+      8cc289e3ec0329221406591931f2c48bc3ba9ebdac49266304470eeb3082ec5d  initramfs-tools-bin_0.103ubuntu4.10_amd64.deb
       67cd7ddfed0cecd7ff1619ebb8bde190a44a7b5eb5f5524503ee8ebe7d269105  initramfs-tools-bin_0.103ubuntu4.9_amd64.deb
+      e2b0df2286ad4df8c36852e5c139753a37475fe0be3d116c9fd13f4ebf322356  initramfs-tools_0.103ubuntu4.10_all.deb
       c2d22fe493631bb96d358ebb55833e50bfc7d10502f964dd902fcd5ccedfc511  initramfs-tools_0.103ubuntu4.9_all.deb
       f60aafa0f9cde70856061531d0eec21375d8e60f0b61b0eb0dc084d47d0ab660  initscripts_2.88dsf-41ubuntu6.3_amd64.deb
       c645ec87fe839f2a1f120d838bdff9a30e46fecd4b21c8293d2f6e4d5cd6fec2  insserv_1.14.0-5ubuntu2_amd64.deb

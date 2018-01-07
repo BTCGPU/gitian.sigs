@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: '4226bf427c395ed3dc78a7ea7b6e61aee1c5b0fa3381c55a3022d0a1f2ba6be1  bitcoin-gold-osx-signed.dmg
+- out_manifest: 'bfb020b1ca51add793bda71931bd71471eb5d93c11e7e1b681febf283e8e3bca  bitcoin-gold-osx-signed.dmg
 
 '
 - in_manifest: |-
     3960b994decb2a02a2430be806ddba500ed47059ce8ba0b0b2b999189312b8a2  bitcoin-gold-dmg-signer-desc.yml
     28dce7850fb428edd10add8cd532e6e743cc45cf4fcf3035e8f3b05156ee3c4f  bitcoin-gold-osx-unsigned.tar.gz
-    git:9bf42ef2ac2198c93e1ade30bae335e674beee08 signature
+    git:3fe97375c03ab2123a9c572c91840b4fad1f48a2 signature
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -83,7 +83,9 @@
       eebcd87b62e92a191455f6e647946b1c142fdd719c8db6e091eeb063b45bf6eb  imagemagick-common_8%3a6.7.7.10-6ubuntu3.9_all.deb
       15a300192c971ecb30cf5cede7af28adfd27f0939e7fa7a183de7f02e35109ee  imagemagick_8%3a6.7.7.10-6ubuntu3.9_amd64.deb
       a67ca65935220a63967d22112fe6d5d60cfaf11cc2058c3d80bc2b67f3b4ff54  init-system-helpers_1.14ubuntu1_all.deb
+      8cc289e3ec0329221406591931f2c48bc3ba9ebdac49266304470eeb3082ec5d  initramfs-tools-bin_0.103ubuntu4.10_amd64.deb
       67cd7ddfed0cecd7ff1619ebb8bde190a44a7b5eb5f5524503ee8ebe7d269105  initramfs-tools-bin_0.103ubuntu4.9_amd64.deb
+      e2b0df2286ad4df8c36852e5c139753a37475fe0be3d116c9fd13f4ebf322356  initramfs-tools_0.103ubuntu4.10_all.deb
       c2d22fe493631bb96d358ebb55833e50bfc7d10502f964dd902fcd5ccedfc511  initramfs-tools_0.103ubuntu4.9_all.deb
       f60aafa0f9cde70856061531d0eec21375d8e60f0b61b0eb0dc084d47d0ab660  initscripts_2.88dsf-41ubuntu6.3_amd64.deb
       c645ec87fe839f2a1f120d838bdff9a30e46fecd4b21c8293d2f6e4d5cd6fec2  insserv_1.14.0-5ubuntu2_amd64.deb
