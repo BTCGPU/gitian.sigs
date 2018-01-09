@@ -1,12 +1,10 @@
 --- !!omap
-- out_manifest: |
-    faf2142a2d11aad66b35bae4f80dcf195867677974cd94a734de41a5c2c90bf2  bitcoin-gold-0.15.0-win32-setup.exe
-    a898ddd9c25ca9a6956f78b0a7567927fad5b96b0da6d35dcb40efad7db879a0  bitcoin-gold-0.15.0-win64-setup.exe
+- out_manifest: 'bfb020b1ca51add793bda71931bd71471eb5d93c11e7e1b681febf283e8e3bca  bitcoin-gold-osx-signed.dmg
+
+'
 - in_manifest: |-
-    001d722991de98b66177bcd990d54a91f64bec93667d5c0409bae9b60f52309c  bitcoin-gold-win-signer-desc.yml
-    f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9  osslsigncode-1.7.1.tar.gz
-    a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911  osslsigncode-Backports-to-1.7.1.patch
-    dd3f85985b4376932d3fe095300bfa657aad56bab64e8a7de04a550c8c6296ad  bitcoin-gold-win-unsigned.tar.gz
+    3960b994decb2a02a2430be806ddba500ed47059ce8ba0b0b2b999189312b8a2  bitcoin-gold-dmg-signer-desc.yml
+    28dce7850fb428edd10add8cd532e6e743cc45cf4fcf3035e8f3b05156ee3c4f  bitcoin-gold-osx-unsigned.tar.gz
     git:3fe97375c03ab2123a9c572c91840b4fad1f48a2 signature
 - base_manifests: !!omap
   - trusty-amd64: |
@@ -418,7 +416,7 @@
       d44332327123a4fef16ededcffac98ac0425402f9c2ccc8e42193b122f8a54b8  zlib1g-dev_1%3a1.2.8.dfsg-1ubuntu1_amd64.deb
 - cache_common_manifest: ''
 - cache_package_manifest: ''
-- release: 0.15.0.2-win-signed
-- name: bitcoin-gold-win-signer
+- release: 0.15.0.2-osx-signed
+- name: bitcoin-gold-dmg-signer
 - type: build
 - optionals: 
